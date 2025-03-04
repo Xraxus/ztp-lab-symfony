@@ -1,0 +1,7 @@
+.idea
+var
+vendor
+.php_cs.cache
+.phpunit.result.cache
+.env
+.php-cs-fixer.cache
