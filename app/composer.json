@@ -107,7 +107,11 @@
         }
     },
     "require-dev": {
+        "escapestudios/symfony2-coding-standard": "*",
+        "friendsofphp/php-cs-fixer": "*",
         "phpunit/phpunit": "^9.5",
+        "rector/rector": "^2.0",
+        "squizlabs/php_codesniffer": "*",
         "symfony/browser-kit": "6.4.*",
         "symfony/css-selector": "6.4.*",
         "symfony/debug-bundle": "6.4.*",
