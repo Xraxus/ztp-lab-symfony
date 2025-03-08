@@ -29,10 +29,20 @@
         </include>
     </coverage>
 
+    <coverage processUncoveredFiles="true">
+        <!-- ... -->
+        <report>
+            <text outputFile="php://stdout" showUncoveredFiles="true" showOnlySummary="false"/>
+        </report>
+        <!-- ... -->
+    </coverage>
+
     <listeners>
         <listener class="Symfony\Bridge\PhpUnit\SymfonyTestsListener" />
     </listeners>
 
     <extensions>
     </extensions>
+
+
 </phpunit>
