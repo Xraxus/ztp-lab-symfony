@@ -108,7 +108,7 @@
         }
     },
     "require-dev": {
-        "escapestudios/symfony2-coding-standard": "*",
+        "escapestudios/symfony2-coding-standard": "^3.15",
         "friendsofphp/php-cs-fixer": "*",
         "rector/rector": "*",
         "squizlabs/php_codesniffer": "*",
